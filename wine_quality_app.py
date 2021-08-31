@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # read in data
-wine = pd.read_csv("data/wine_all.csv", delimiter = ",")
+wine = pd.read_csv("wine_all.csv", delimiter = ",")
 wine["wine color"] = wine["color_text"]
 
 # set up App
