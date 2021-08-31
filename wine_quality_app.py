@@ -165,4 +165,5 @@ def update_bar(x_var, data_filter, color_by):
 
 # Run app and display result inline in the notebook
 #app.run_server(mode='inline')
-app.run_server()
+if __name__ == '__main__':
+    app.run_server()
