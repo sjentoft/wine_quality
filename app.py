@@ -13,6 +13,7 @@ wine["wine color"] = wine["color_text"]
 
 # set up App
 app = JupyterDash(__name__)
+server = app.server
 app.title = "Wine quality and price"
 
 
