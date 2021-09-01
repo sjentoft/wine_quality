@@ -12,7 +12,7 @@ wine = pd.read_csv("wine_all.csv", delimiter = ",")
 wine["wine color"] = wine["color_text"]
 
 # set up App
-app = JupyterDash(__name__)
+app = dash.Dash(__name__)
 server = app.server
 app.title = "Wine quality and price"
 
